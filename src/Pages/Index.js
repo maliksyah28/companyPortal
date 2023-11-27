@@ -1,18 +1,23 @@
-import React from "react";
+import React from 'react';
 
-import Carousel from "../Component/Carousell";
-import Footer from "../Component/Footer";
-import Navbar from "../Component/Navbar";
-import CostumerDone from "../Component/CostumerDone";
-import CardService from "../Component/CardService";
+import Carousel from '../Component/Carousell';
+import Footer from '../Component/Footer';
+import Navbar from '../Component/Navbar';
+import CostumerDone from '../Component/CostumerDone';
+import CardService from '../Component/CardService';
 
 function Index() {
   return (
     <>
       <div id="page">
         <Navbar />
-        <div style={{display: "flex", justifyContent:"center", margin:'10px'}}>  <CardService/> </div>
-        
+        <div
+          style={{ display: 'flex', justifyContent: 'Center', margin: '10px' }}
+        >
+          {' '}
+          <CardService />{' '}
+        </div>
+
         <Carousel />
         <CostumerDone />
 

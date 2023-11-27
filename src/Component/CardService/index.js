@@ -1,5 +1,5 @@
-import React from "react";
-import "./idx.css";
+import React from 'react';
+import './idx.css';
 function CardService() {
   return (
     <>
@@ -8,12 +8,16 @@ function CardService() {
           <img src="images/coldstorage.png" alt="" />
         </div>
         <div class="blog-post__info">
-          <h2 class="blog-post__title">Logistic Capability</h2>
+          <h2 class="blog-post__title">
+            Alpha Diagnostic International, Inc. (ADI){' '}
+          </h2>
           <p>
-            - We are doing well in Ice gel pack shipment: 2-8’C for sernsitive
-            products (e.g antibody and elisa kit)
+            U.S. biotechnology company headquartered in San Antonio, Texas. ADI
+            develops, manufactures, and supplies novel diagnostic and quality
+            control reagents and test kits for use in basic biological and
+            disease research in humans and animals.
           </p>
-          <p>-Room temperature shipment for non sensitive products.</p>
+          {/* <p>-Room temperature shipment for non sensitive products.</p> */}
         </div>
       </article>
     </>
