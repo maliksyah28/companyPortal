@@ -11,14 +11,54 @@ function Index() {
     <>
       <div id="page">
         <Navbar />
-        <div
-          style={{ display: 'flex', justifyContent: 'Center', margin: '10px' }}
+       <div style={{ width: '100%', display: 'flex', justifyContent: 'Center'}}>
+       <div
+          style={{ margin: '10px',display: 'flex', justifyContent: 'Center', flexWrap: 'wrap', width: '70vw' }}
         >
-          {' '}
-          <CardService />{' '}
+          <CardService 
+          image={'images/alphadiagnostic.png'} 
+          title={'Alpha Diagnostic International, Inc. (ADI)'}
+          desc={`U.S. biotechnology company headquartered in San Antonio, Texas. ADI
+          develops, manufactures, and supplies novel diagnostic and quality
+          control reagents and test kits for use in basic biological and
+          disease research in humans and animals.`}
+          />
+          <CardService 
+          image={'images/coldstorage.png'} 
+          title={'Alpha Diagnostic International, Inc. (ADI)'}
+          desc={`U.S. biotechnology company headquartered in San Antonio, Texas. ADI
+          develops, manufactures, and supplies novel diagnostic and quality
+          control reagents and test kits for use in basic biological and
+          disease research in humans and animals.`}
+          />
+          <CardService 
+          image={'images/coldstorage.png'} 
+          title={'Alpha Diagnostic International, Inc. (ADI)'}
+          desc={`U.S. biotechnology company headquartered in San Antonio, Texas. ADI
+          develops, manufactures, and supplies novel diagnostic and quality
+          control reagents and test kits for use in basic biological and
+          disease research in humans and animals.`}
+          />
+          <CardService 
+          image={'images/coldstorage.png'} 
+          title={'Alpha Diagnostic International, Inc. (ADI)'}
+          desc={`U.S. biotechnology company headquartered in San Antonio, Texas. ADI
+          develops, manufactures, and supplies novel diagnostic and quality
+          control reagents and test kits for use in basic biological and
+          disease research in humans and animals.`}
+          />
+          <CardService 
+          image={'images/coldstorage.png'} 
+          title={'Alpha Diagnostic International, Inc. (ADI)'}
+          desc={`U.S. biotechnology company headquartered in San Antonio, Texas. ADI
+          develops, manufactures, and supplies novel diagnostic and quality
+          control reagents and test kits for use in basic biological and
+          disease research in humans and animals.`}
+          />
         </div>
+       </div>
 
-        <Carousel />
+        {/* <Carousel /> */}
         <CostumerDone />
 
         <Footer />
